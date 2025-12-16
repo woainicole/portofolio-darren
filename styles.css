@@ -81,27 +81,6 @@ body::before {
   padding: 0 20px;
 }
 
-/* ===== ICON STYLES ===== */
-.fas {
-  font-family: 'Segoe UI', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  display: inline-block;
-}
-
-.fa-bars:before { content: "☰"; }
-.fa-code:before { content: "</>"; }
-.fa-github:before { content: "🐙"; }
-.fa-chevron-down:before { content: "↓"; }
-.fa-cash-register:before { content: "💰"; }
-.fa-dumbbell:before { content: "🏋️"; }
-.fa-shopping-cart:before { content: "🛒"; }
-.fa-external-link-alt:before { content: "↗"; }
-.fa-envelope:before { content: "✉"; }
-.fa-paper-plane:before { content: "✈"; }
-.fa-canva:before { content: "🎨"; }
-.fa-expand:before { content: "⛶"; }
-
 /* ===== NAVIGATION ===== */
 .navbar {
   position: fixed;
@@ -325,6 +304,7 @@ body::before {
   align-items: center;
   gap: 0.8rem;
   border: none;
+  font-family: inherit;
 }
 
 .btn-primary {
